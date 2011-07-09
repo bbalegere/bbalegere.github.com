@@ -1,2 +1,15 @@
-<h1><center>Bharat Balegere</center></h1>
-AgniPulse.COm
+---
+layout: default
+title: Home
+---
+   
+<div id="posts">
+
+      {% for post in site.posts offset: 0 limit: 10 %}
+          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          {{ post.date | date_to_string }}
+          {{ post.content }}
+
+      {% endfor %}
+    
+</div>
