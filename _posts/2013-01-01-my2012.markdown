@@ -1,0 +1,18 @@
+---
+layout: post
+title: The year 2012
+tags: [general]
+---
+
+The year 2012 was an excellent year.Highlights of this year
+
+-   Successfully completed the Kumara Parvata Trek.
+-	Played Cricket everyday from Jan to Jun
+-   Attended Intel Youth Entreprenuership Program at IIMB.
+-   Reverse Engineered YubiKey and built a clone called [RakshaKey](/projects/RakshaKey/) using Atmega8 microcontroller.
+-	Waynad trip with college friends
+-   Completed my Engineering and joined a Financial Company as Technologist.
+-   Went to New York for 2 months as training! Visited a lot of places in America
+-   Enjoyed my stay in NY and did Sky-Diving !!
+-   MakaliDurga Trek with college friends.
+

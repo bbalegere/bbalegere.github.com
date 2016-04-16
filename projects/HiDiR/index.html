@@ -1,0 +1,33 @@
+---
+layout: page
+title: HiDiR – Wireless Programmable HID
+tab: projects
+---
+
+<p>HiDiR is a USB HID Device which simulates a keyboard and enables wireless control of the computers using Consumer Infrared Devices like TV remote . This was my mini project in 6 semester.</p>
+
+<h2>The Need</h2>
+
+<p>Our main aim was to create a useful and portable device.We started looking at our daily life for some ideas.Here are the observations.</p>
+<ol>
+<li> While giving presentations and seminars in class,people always stand near their laptops to control their presentation slides.Sometimes they would request somebody else to do that.Either the speaker or somebody else always has to be near the laptop to control the presentation slides.</li>
+<li>While watching movies or videos on a desktop, the playback cannot be controlled using a remote like how it can be done with a DVD Player or a Media Center.In order to pause or increase the volume,one has to be near the computer</li>
+</ol>
+
+<p>Our project HIDIR solves the above problems.The objective of HIDIR is to convert Consumer Infrared signals to commands on a computer.HIDIR consists of two parts,the receiving circuit which is connected to the computer via USB and a Consumer Infrared Remote (TV or DVD Player Remote). </p>
+
+<p>The device was built using an Atmega8 microcontroller and <a href="http://www.obdev.at/products/vusb/index.html" target="_blank">V-USB firmware</a>. V-USB is a software only implementation of UBS 1.1. The entire code written in C and compiled with avr-gcc.The development environment was <a href="http://www.geany.org/" target="_blank">Geany</a> in Linux Mint.A bootloader, <a href="http://www.obdev.at/products/vusb/usbasploader.html" target="_blank">USBAspLoader</a> was used to program the microcontroller.
+</p> 
+
+<h2>Functions</h2>
+<ol>
+<li>Control video and audio playback in VLC Player</li>
+<li>Control Powerpoint Presentations</li>
+<li>Username and Password entry for Login</li>
+<li>Closing windows</li>
+<li>Running specific Applications</li>
+<li>Folder navigation.</li>
+</ol>
+
+<h2>Advantages</h2>
+    <ol><li>Plug and Play USB Device</li><li>Operating System Independent</li><li>No external Power Supply required</li><li>Low Cost Device</li><li>Portable and Simple to operate</li><li>Reprogrammable</li></ol>

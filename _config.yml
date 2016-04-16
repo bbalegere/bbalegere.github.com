@@ -1,0 +1,18 @@
+markdown: rdiscount
+highlighter: pygments
+permalink: pretty
+url: http://bharat.balegere.com
+title: Bharat Balegere
+slug: Engineer, Tech Enthusiast
+author: Bharat Balegere
+email: http://www.google.com/recaptcha/mailhide/d?k=01uMEL0LXHZOFy41KPLrNahg==&c=IV2YKiH35sYCuv2nfhnxXTclkU47tFLELY6-OvRZC1o=
+github: bbalegere
+twitter: bbalegere
+atom: http://feeds.feedburner.com/agnipulse
+
+paginate: 5
+gems: [jekyll-paginate]
+exclude:
+  - Rakefile
+  - README.markdown
+
