@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 highlighter: pygments
 permalink: pretty
 url: http://bharat.balegere.com
