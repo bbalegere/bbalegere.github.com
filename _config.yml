@@ -1,5 +1,5 @@
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 url: http://bharat.balegere.com
 title: Bharat Balegere
